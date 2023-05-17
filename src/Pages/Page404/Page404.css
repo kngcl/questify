@@ -1,0 +1,27 @@
+.errorpage {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter';
+  margin: auto;
+  align-items: center;
+}
+
+.numz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #224957;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 360px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.paraz p {
+    font-size: 40px;
+    margin-bottom: 70px;
+}

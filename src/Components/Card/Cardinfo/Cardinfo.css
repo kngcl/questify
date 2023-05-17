@@ -1,0 +1,74 @@
+.cardinfo {
+  padding: 30px;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 20px;
+  width: 600px;
+}
+
+.cardinfo-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cardinfo-box-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.cardinfo-box-body {
+  width: fit-content;
+}
+
+.cardinfo-box input {
+  width: fit-content;
+  background-color: #fff;
+  color: #000;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.cardinfo-box-progress {
+  height: 10px;
+  border-radius: 20px;
+  background-color: #224957;
+}
+
+.cardinfo-box-progress-bar {
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.cardinfo-task {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.cardinfo-task p {
+  flex: 1;
+  line-height: 20px;
+}
+
+.cardinfo-task input,
+.cardinfo-task svg {
+  height: 18px;
+  width: 18%;
+  cursor: pointer;
+}
+
+.cardinfo-box-labels {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}

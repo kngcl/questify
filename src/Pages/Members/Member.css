@@ -1,0 +1,46 @@
+.memberContainer {
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.scroll {
+  min-width: 1100px;
+  margin: auto;
+  padding: 4px;
+  height: 390px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+}
+
+.member {
+  width: 90%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff98;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.memberFieldBtn {
+  display: flex;
+}
+
+.manageElt {
+  width: 3rem;
+}
+.memberField {
+  width: 50px;
+}
+
+.button {
+  width: 88%;
+  display: flex;
+  justify-content: flex-end;
+}

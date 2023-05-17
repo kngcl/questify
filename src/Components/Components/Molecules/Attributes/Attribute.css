@@ -1,0 +1,11 @@
+.attributes {
+  display: flex;
+  gap: 4px;
+  justify-content: right;
+  align-items: center;
+}
+
+.logoz {
+  width: 10%;
+  margin-right: 75%;
+}

@@ -1,0 +1,36 @@
+.taskPage {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Mulish', sans-serif;
+ width: 70%;
+ margin: auto;
+}
+
+.taskContain {
+  align-items: center;
+  background-color: #ffffff98;
+  border-radius: 10px;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  padding: 10px;
+  line-height: 0.2;
+  margin: 10px auto;
+}
+
+.carding{
+  width: 100%;
+}
+
+.scroll {
+  min-width: 1100px;
+  margin: auto;
+  padding: 4px;
+  height: 399px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+}
+

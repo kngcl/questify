@@ -1,0 +1,70 @@
+.invitations {
+  display: flex;
+  gap: 10px;
+  line-break: auto;
+}
+
+.cross {
+  cursor: pointer;
+  background-color: brown;
+  padding: 0.2rem;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.btn_email {
+  position: absolute;
+  right: 4%;
+  
+}
+
+.addTeam {
+  position: relative;
+}
+
+.btn_email{
+  /* position: absolute;
+  top: -4px;
+  right: 14.7%; */
+}
+
+.addTeam{
+  display: flex;
+  gap: 10px;
+  right: 25%;
+  position: relative;
+}
+
+.Add {
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.form_control {
+  /* position: absolute; */
+}
+
+.create_work {
+  width: 100%;
+  
+}
+
+.team {
+  margin-top: 20px;
+}
+
+.btn_create_workspace {
+  margin-top: 7%;
+}
+
+.infoz h1 {
+  margin: 20px;
+}
+
+.createWork {
+display: flex;
+justify-content: flex-start;
+}

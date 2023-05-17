@@ -1,0 +1,79 @@
+.board {
+    min-width: 290px;
+    max-height: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.board-top-more {
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+}
+
+.board-top-more svg {
+    color: #000;
+}
+
+.board p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.board-top {
+    display: flex;
+}
+
+.board-dropdown {
+    background-color: #fff;
+    width: 115px;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.board-dropdown p {
+    cursor: pointer;
+}
+
+.board-top-title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 5px;
+}
+
+.board-top-title span {
+    color: gray;
+}
+
+.board-cards {
+    height: 100%;
+    flex: 1;
+    /* background-color: rgba(255, 255, 255, 0.597); */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 10px;
+    overflow-y: auto;
+}
+
+.board-cards-add {
+    width: 50%;
+    cursor: pointer;
+    background-color: #556d6d;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.15);
+}
+
+.board-cards-add:hover {
+    box-shadow: 1px 2px 1px green;
+    color: #000;
+}

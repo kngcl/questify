@@ -1,0 +1,39 @@
+.backshadow {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.backshadow .custom_modal {
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    position: relative;
+    border: 3px solid #22574e;
+    border-radius: 15px 10px;
+}
+
+.delete_icon {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-size: 600;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+}
+

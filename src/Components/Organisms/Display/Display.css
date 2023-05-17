@@ -1,0 +1,10 @@
+.display {
+  align-items: center;
+  display: flex;
+  font-family: 'Mulish', sans-serif;
+  gap: 100px;
+  justify-content: center;
+  margin: 50px auto;
+  margin-bottom: 20px;
+  width: 88%;
+}
