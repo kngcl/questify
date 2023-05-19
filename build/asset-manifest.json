@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.db1fc1ec.css",
+    "main.js": "/static/js/main.cbc6697a.js",
+    "static/media/geekman.png.png": "/static/media/geekman.png.76990e76b24a0967f8ca.png",
+    "static/media/boy.png": "/static/media/boy.281fceea08437c95e9b6.png",
+    "static/media/logoz-Photo.png.png": "/static/media/logoz-Photo.png.caf6bee151f73ea07059.png",
+    "static/media/girl.png": "/static/media/girl.74f65c618a3a7b4b0946.png",
+    "static/media/quest.svg": "/static/media/quest.9fbe113acd398dba76a4f73dcd35e493.svg",
+    "static/media/logoz.png": "/static/media/logoz.3a759a5c3c91af096a11.png",
+    "static/media/Vectors.svg": "/static/media/Vectors.84c24f0751d7f0d8acedab4679a64f5c.svg",
+    "index.html": "/index.html",
+    "main.db1fc1ec.css.map": "/static/css/main.db1fc1ec.css.map",
+    "main.cbc6697a.js.map": "/static/js/main.cbc6697a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db1fc1ec.css",
+    "static/js/main.cbc6697a.js"
+  ]
+}
