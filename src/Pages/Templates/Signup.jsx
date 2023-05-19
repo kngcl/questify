@@ -26,8 +26,9 @@ export default function Signup() {
     const values = Object.fromEntries(user.entries());
     register(values).then(({ data: { token } }) => saveToken(token));
     if (searchParams.get('token')) {
+      setIsLoading(true);
       await confirmUser(searchParams.get('token'));
-      navigate('/dashboard');
+      navigate('/dashboard/board');
 
       setIsLoading(false);
     } else {
