@@ -21,7 +21,7 @@ export default function Footer() {
             </a>
           </div>
 
-          <div className="row">
+          <div className="row ok">
             <ul>
               <li>
                 <a href="#">Contact us</a>
