@@ -1,10 +1,11 @@
 import './App.css';
+import React from "react"
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Signup from './Pages/Templates/Signup';
 import Signin from './Pages/Templates/Signin';
 import CreateFirstTeam from './Pages/Templates/CreateFirstTeam';
 import Landing from './Pages/Landing/Homepage';
-import Dashboard from './Pages/Dashboard/Dashboard';
+import Dashboard from './Pages/Dashboard copy/Dashboard';
 import BoardPage from './Pages/BoardPage/BoardPage';
 import PageLoader from './Pages/Templates/PageLoader/PageLoader';
 import Members from './Pages/Members/Members';

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import  React, { useState } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import './Styles.css';
 import Input from '../../Components/Atoms/Inputs/Input';

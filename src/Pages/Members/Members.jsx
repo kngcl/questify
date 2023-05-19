@@ -1,6 +1,6 @@
 import './Member.css';
 import { FaEdit, FaTrashAlt } from 'react-icons/fa';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Button from '../../Components/Atoms/Buttons/Button';
 import { getMembers } from '../../Api/auth';
 import PageLoader from '../Templates/PageLoader/PageLoader';
